@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+height: 1000px;
+background-color: #ffffff;
+}
+
+
+
+  /* xl */
+  .box{
+    width: 100%;
+    height: 56px;
+    background: #1094F6;
+   border-radius: 8px;
+   margin-bottom: 16px;
+   text-align: center;
+   line-height: 56px;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   padding-left: 16px;
+   padding-right: 16px;
+   
+   
+
+  }
+
+@media (max-width: 1024px) {
+  /* lg */
+  .box{
+    background:#F72848;
+
+    }
+}
+
+@media (max-width: 768px) {
+  /* md */
+  background: #12D469;
+}
+
+@media (max-width: 667px) {
+  /* sm */
+  background: #973CBD;
+}
